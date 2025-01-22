@@ -131,6 +131,17 @@ header{
 .btn-enroll:hover{
     background-color: rgb(1, 172, 253);
 }
+/* marquee tag sction */
+.play{
+    background-color: rgb(130, 179, 206);
+    font-family: Quicksand;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgb(222, 245, 255);
+    height: 40px;
+}
 /* curriculum styles */
 .curriculum-section{
     background-image: url("../Images/bg.png");
@@ -267,7 +278,6 @@ header{
     background: rgb(255, 255, 255);
 }
 .classroom-image{
-    width: 100%;
     border-radius: 12px 12px 0px 0px;
 }
 .date1{
@@ -358,6 +368,66 @@ header{
 .btn-view:hover{
     background: rgb(60, 216, 232);
 }
+/* footer section */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(1, 172, 253);
+    padding: 40px 20px;
+}
+.footer-logo{
+    display: flex;
+}
+.kids{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+}
+.kids-description{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+div ul li{
+    list-style: none;
+    
+}
+div ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    padding-top: 10px;
+}
+.about-school{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding-bottom: 15px;
+}
+.keep{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0%;
+    padding-bottom: 20px;
+}
    @media screen and (max-width: 576px) {
     /* navbar styles */
     .topnav a:not(:first-child) {display: none;}
@@ -413,14 +483,26 @@ header{
      }
      .classroom1{
         display: none;
-
      } 
     .classroom{
-        max-width: 100%;
         height: auto;
     }
     .btn-view{
         margin-right: 200px;
+    }
+    /* footer section */
+    footer{
+        flex-direction: column;
+    }
+    .about-school{
+        padding-top: 15px;
+        padding-left: 5px;
+    }
+    div ul li a{
+        padding-left: 5px;
+    }
+    .keep{
+        padding: 15px 0px;
     }
   }
 
